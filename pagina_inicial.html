@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Dev</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="css/pagina_inicial/inicial.css">
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+        
+        function Logout(){
+            if (confirm("Encerrar sessão no site?")) {
+                alert("Sessão encerrada!");
+	            window.location.href = "index.html";
+            }
+        };
+    </script>
+   
+</head>
+<body>
+    <div class="content">
+        <input type="checkbox" id="check">
+        <header>
+            <label for="check">
+                <ion-icon name="menu-outline" id="siderbar_btn"></ion-icon>
+            </label>
+            <div class="left">
+                <h3>Biblioteca <span> Dev</h3>
+            </div>
+
+            <div class="right">
+               <!-- <a href="javascript:close_window();" class="sair_btn">Sair</a>  -->
+               
+               <a href="javascript:Logout();" class="sair_btn">Sair</a>
+            </div>
+        </header>
+        
+        <div class="sidebar">
+            <a href="cadastrar_livro.php"><ion-icon name="newspaper-outline"></ion-icon><span> Cadastrar</span></a>
+            <a href="consultar_livro.html"><ion-icon name="file-tray-stacked-outline"></ion-icon><span> Consultar</span></a>
+            <a href="exclusão_livro.php"><ion-icon name="trash-outline"></ion-icon><span> Excluir</span></a>
+        </div>
+
+        <!-- ICONS DO SIDEBAR-->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div> 
+    </body>
+</html>

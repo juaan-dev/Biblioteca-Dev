@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Livros</title>
+    <link rel="stylesheet" href="css/consultar/consultar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="img1">
+        <img src="assets/dog_background.gif" alt="">
+    </div>
+    <div class="content">
+        <div class="subcontent">
+            <form method="post" action="consulta.php">
+                <h1>Consultar Livro</h1>
+                <label for="consulta" class="span">
+                    <h2>Para consulta de qualquer livro, insira o "Código"
+                       do livro na aba abaixo:</h2><br>
+                    <span>
+                        Código ISBN-10
+                        </span>
+                    <input type="text" id="codigo" name="codigo" class="input_consulta" required="required">
+                   
+
+                    
+                </label>   
+                <input type="submit" value="Consultar" name="btn_consultar" required="required" class="button">
+                </form>   
+            </div>
+
+        <div class="footer">
+            <div class="footer_button" id="home">
+                    <a href="pagina_inicial.html">
+                       <img src="./assets/home.png" alt="">
+                    </a>
+            </div>
+           </div>
+        </div>
+        <div class="img2">
+            <img src="assets/dog_background.gif" alt="">
+        </div>
+</body>
+</html>

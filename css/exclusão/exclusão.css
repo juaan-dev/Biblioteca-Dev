@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2? família=Poppins:wght@100&display=swap');
+
+*{
+    margin: 5;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.content{
+    margin: 0px auto;
+    position: relative;
+    width: 100%;  
+    
+}
+
+body{
+    background: #1b2029;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 50vh;
+    background-image: url('../../assets/paredao.jpg');
+    background-size:cover;
+    
+}
+div {
+   width: 48vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+div h1{
+    color: #ffffff;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+div h2{
+    color:aliceblue;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+div form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div form label{
+    display: flex;
+    flex-direction: column;
+}
+div form label span{
+    font-size: 1.1rem; /* Fonte do Label*/
+    margin-top: 1.1rem; /* Margem dos Label*/
+}
+div form input{
+    background: #161923;
+    width: 500px;
+    height: 35px;
+    padding: 0 0.5rem;
+    margin-top: 1rem; 
+    outline: none;
+    color: aliceblue;
+    border: 1px solid #020b18;
+    border-radius: 8px;
+}
+
+div form input[type="submit"]{
+    cursor: pointer;
+    width: 50%;
+    margin-top: 3rem;
+    border: none;
+    border-radius: 32px;
+    background: #6c63ff;
+    color:aliceblue;
+    font-size: 2rem;
+    transition: all .3s ease-in-out;
+}
+div form input[type="submit"]:hover{
+    background:darkslateblue;
+}
+
+span{
+    margin-top: 5%;
+}
+
+.title_home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+#home{
+    margin-top: 10%;
+    cursor: pointer;
+    background: none;
+    color:#8880fe;
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    padding: 0.2em;
+    width: 100px;
+}
+
+#home:hover{
+    background-color: none;
+    
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+  }
